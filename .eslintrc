@@ -12,6 +12,8 @@
     // More flexible arrow function bodys
     "arrow-body-style": 0,
     // Allow same-name variable in different scopes
-    "no-shadow": 0
+    "no-shadow": 0,
+    // More flexible return values
+    "consistent-return": 0
   }
 }
