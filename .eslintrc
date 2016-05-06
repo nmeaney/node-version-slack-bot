@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    // disable requiring trailing commas
+    "comma-dangle": 0,
+    // Allow empty line at top / bottom of blocks
+    "padded-blocks": 0,
+    // Allow unused variables
+    "no-unused-vars": 0,
+    // Allow console logging
+    "no-console": 0,
+    // More flexible arrow function bodys
+    "arrow-body-style": 0,
+    // Allow same-name variable in different scopes
+    "no-shadow": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Node Version",
+  "description": "Node Version is a Slack bot that returns the latest stable version of Node.js, as specified by http://semver.io.",
+  "repository": "https://github.com/nmeaney/node-version-slack-bot",
+  "logo": "https://heroku-www-files.s3.amazonaws.com/starbot/starbot-icon.png",
+  "success_url": "/",
+  "env": {
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "NODE_VERSION_COMMAND_TOKEN": {
+      "description": "Slash command token, for the Node Version command endpoint",
+      "required": true
+    },
+    "SLACK_TOKEN": {
+      "description": "Slack bot RTM API token",
+      "required": false
+    },
+    "NODE_ENV": "staging"
+  },
+  "image": "heroku/nodejs"
+}
