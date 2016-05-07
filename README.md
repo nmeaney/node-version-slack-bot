@@ -7,7 +7,7 @@ Inspired by https://blog.heroku.com/archives/2016/3/9/how-to-deploy-your-slack-b
 
 ### Supported `/slash` commands
 
-- `/nvs` - return the latest *stable* version of Node.js.
+- `/nvs` - return the latest Node.js stable and unstable version numbers.
 
 
 ### License

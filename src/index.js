@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Default - hello world
-app.get('/', (req, res) => { res.send('\n 👋 🌍 \n'); });
+// app.get('/', (req, res) => { res.send('\n 👋 🌍 \n'); });
 
 // Default command
 app.post('/commands/node-version', (req, res) => {
